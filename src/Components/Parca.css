@@ -1,0 +1,10 @@
+.sayac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    padding: 12px 16px;
+}
