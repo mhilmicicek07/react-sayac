@@ -43,8 +43,6 @@ Bu sayede sayfa yenilense veya tarayıcı kapatılsa bile sayaç ve tema ayarlar
 ├── 📄 README.md
 └── 📄 .gitignore
 
-yaml
-Kodu kopyala
 
 ---
 
@@ -57,18 +55,15 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleye
    git clone https://github.com/mhilmicicek07/react-sayac.git
 Proje klasörüne geçin:
 
-bash
-Kodu kopyala
+
 cd react-sayac
 Gerekli bağımlılıkları yükleyin:
 
-bash
-Kodu kopyala
+
 npm install
 Uygulamayı başlatın:
 
-bash
-Kodu kopyala
+
 npm start
 Tarayıcınızda aşağıdaki adresi açın:
 👉 http://localhost:3000
