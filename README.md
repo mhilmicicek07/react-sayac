@@ -1,3 +1,102 @@
+# ⚛️ React Sayaç Uygulaması  
+
+Bu proje, kullanıcıların sayı değerlerini artırıp azaltabileceği, başlangıç değeri belirleyebileceği ve temayı değiştirebileceği interaktif bir **Sayaç (Counter)** uygulamasıdır.  
+Uygulama **React** kullanılarak geliştirilmiştir ve kullanıcı verileri **LocalStorage** üzerinde kalıcı olarak saklanır.  
+Bu sayede sayfa yenilense veya tarayıcı kapatılsa bile sayaç ve tema ayarları kaybolmaz.
+
+---
+
+## 🚀 Özellikler
+
+- ✅ **Artırma ve Azaltma:** Sayaç değerini butonlarla dinamik olarak değiştirme.  
+- 🧮 **Başlangıç Değeri Belirleme:** Kullanıcı, istediği başlangıç değerini girip sayacı o değerden başlatabilir.  
+- 🔁 **Sıfırlama:** Sayaç değerini tek tıkla sıfırlama.  
+- 💾 **Kalıcı Veri Saklama:** Sayaç ve tema bilgileri tarayıcı **LocalStorage**'ında saklanır.  
+- 🌓 **Tema Değiştirme (Açık/Koyu Mod):** Kullanıcılar açık ve koyu tema arasında geçiş yapabilir.  
+- 🎨 **Modern Arayüz:** Responsive ve sade tasarım.  
+- ⚡ **Otomatik Geri Yükleme:** Sayfa yenilendiğinde en son kullanılan sayaç değeri ve tema otomatik olarak geri yüklenir.
+
+---
+
+## 🧩 Kullanılan Teknolojiler
+
+| Teknoloji | Rolü |
+|------------|-----------|
+| **React (CRA)** | Uygulamanın temel yapısı ve component bazlı mantık. |
+| **JavaScript (ES6+)** | Sayaç, tema ve localStorage işlevleri. |
+| **CSS3** | Modern ve responsive arayüz tasarımı. |
+| **LocalStorage API** | Sayaç ve tema bilgilerinin kalıcı olarak saklanması. |
+
+---
+
+## 📂 Proje Dosya Yapısı
+
+📁 react-sayac
+├── 📁 src
+│ ├── 📁 Components
+│ │ ├── 📄 Parca.js
+│ │ └── 📄 Parca.css
+│ ├── 📄 App.js
+│ ├── 📄 App.css
+│ └── 📄 index.js
+├── 📄 package.json
+├── 📄 README.md
+└── 📄 .gitignore
+
+yaml
+Kodu kopyala
+
+---
+
+## ⚙️ Kurulum ve Çalıştırma
+
+Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz:
+
+1. Bu projeyi klonlayın:
+   ```bash
+   git clone https://github.com/mhilmicicek07/react-sayac.git
+Proje klasörüne geçin:
+
+bash
+Kodu kopyala
+cd react-sayac
+Gerekli bağımlılıkları yükleyin:
+
+bash
+Kodu kopyala
+npm install
+Uygulamayı başlatın:
+
+bash
+Kodu kopyala
+npm start
+Tarayıcınızda aşağıdaki adresi açın:
+👉 http://localhost:3000
+
+Hepsi bu kadar! 🎉
+Artık sayacı artırabilir, azaltabilir, sıfırlayabilir ve temayı değiştirebilirsiniz.
+Yaptığınız tüm değişiklikler tarayıcıda kalıcı olarak saklanır.
+
+🧠 Teknik Açıklama
+Parca.js, uygulamanın ana componentidir.
+Burada sayaç mantığı (useState, useEffect) ile yönetilir.
+
+LocalStorage üzerinden hem sayaç değeri hem de tema bilgisi saklanır.
+
+Tema değişimi, data-theme attribute’u ile body üzerinde dinamik olarak uygulanır.
+
+CSS değişkenleri (--bg-color, --text-color vb.) kullanılarak açık/koyu mod arası geçiş yumuşak şekilde yapılır.
+
+👨‍💻 Geliştirici
+Mehmet Hilmi Çiçek
+💼 Full Stack Web Developer
+📍 Geislingen an der Steige
+💬 “Basit ama tutarlı kod, karmaşık olandan her zaman üstündür.”
+
+🪪 Lisans
+Bu proje açık kaynaklıdır.
+İsteyen herkes kodu inceleyebilir, geliştirebilir veya kişisel projelerinde kullanabilir.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
