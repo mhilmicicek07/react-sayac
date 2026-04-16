@@ -7,7 +7,7 @@
 ## <a name="tr-türkçe"></a>🇹🇷 TR - Türkçe
 
 ### Hakkında
-Bu proje, kullanıcıların sayı değerlerini artırıp azaltabileceği, başlangıç değeri belirleyebileceği ve temayı değiştirebileceği interaktif bir **Sayaç (Counter)** uygulamasıdır. Uygulama **React** kullanılarak geliştirilmiştir ve kullanıcı verileri **LocalStorage** üzerinde kalıcı olarak saklanır. Bu sayede sayfa yenilense veya tarayıcı kapatılsa bile sayaç ve tema ayarları kaybolmaz.
+Bu proje, kullanıcıların sayı değerlerini artırıp azaltabileceği, başlangıç değeri belirleyebileceği ve temayı değiştirebileceği interaktif bir **Sayaç (Counter)** uygulamasıdır. Uygulama **React** kullanılarak geliştirilmiştir ve kullanıcı verileri **LocalStorage** üzerinde kalıcı olarak saklanır. Varsayılan sayaç değeri 500'dür ve uygulama açıldığında son sayaç değeri ile tema tercihi otomatik olarak geri yüklenir.
 
 ### 🚀 Özellikler
 - ✅ **Artırma ve Azaltma:** Sayaç değerini butonlarla dinamik olarak değiştirme.
@@ -31,7 +31,7 @@ Bu proje, kullanıcıların sayı değerlerini artırıp azaltabileceği, başla
 ## <a name="eng-english"></a>🇺🇸 ENG - English
 
 ### About
-This project is an interactive **Counter** application where users can increment or decrement values, set a custom starting point, and switch themes. Built with **React**, it uses **LocalStorage** to persist user data, ensuring settings remain even after a page refresh or browser restart.
+This project is an interactive **Counter** application where users can increment or decrement values, set a custom starting point, and switch themes. Built with **React**, it uses **LocalStorage** to persist user data, ensuring settings remain even after a page refresh or browser restart. The counter starts at 500 by default and restores both the last value and theme preference on load.
 
 ### 🚀 Features
 - ✅ **Increment & Decrement:** Change the counter value dynamically using buttons.
@@ -55,7 +55,7 @@ This project is an interactive **Counter** application where users can increment
 ## <a name="de-deutsch"></a>🇩🇪 DE - Deutsch
 
 ### Über das Projekt
-Dieses Projekt ist eine interaktive **Zähler-App (Counter)**, mit der Benutzer Werte erhöhen oder verringern, einen Startwert festlegen und das Design ändern können. Die Anwendung wurde mit **React** entwickelt und speichert Benutzerdaten dauerhaft im **LocalStorage**, sodass Einstellungen auch nach einem Neustart erhalten bleiben.
+Dieses Projekt ist eine interaktive **Zähler-App (Counter)**, mit der Benutzer Werte erhöhen oder verringern, einen Startwert festlegen und das Design ändern können. Die Anwendung wurde mit **React** entwickelt und speichert Benutzerdaten dauerhaft im **LocalStorage**, sodass Einstellungen auch nach einem Neustart erhalten bleiben. Der Zähler startet standardmäßig bei 500 und lädt beim Öffnen den zuletzt genutzten Wert sowie die gewählte Theme-Einstellung.
 
 ### 🚀 Funktionen
 - ✅ **Erhöhen & Verringern:** Dynamische Änderung des Zählerwerts über Schaltflächen.
@@ -91,6 +91,13 @@ npm install
 # Uygulamayı başlatın / Start the app / App starten
 npm start
 ```
+
+---
+
+## 🧪 Test / Tests / Tests
+- 🇹🇷 Testleri çalıştırmak için: `npm test -- --watch=false`
+- 🇺🇸 Run the existing tests with: `npm test -- --watch=false`
+- 🇩🇪 Tests ausführen: `npm test -- --watch=false`
 
 ---
 
