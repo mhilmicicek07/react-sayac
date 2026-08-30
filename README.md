@@ -78,6 +78,8 @@ Dieses Projekt ist eine interaktive **Zähler-App (Counter)**, mit der Benutzer 
 
 ## ⚙️ Kurulum / Setup / Installation
 
+**Gereksinimler / Prerequisites / Voraussetzungen:** Node.js (v14+) ve npm
+
 ```bash
 # Projeyi klonlayın / Clone the project / Projekt klonen
 git clone https://github.com/mhilmicicek07/react-sayac.git
@@ -90,14 +92,17 @@ npm install
 
 # Uygulamayı başlatın / Start the app / App starten
 npm start
+
+# Üretim derlemesi oluşturun / Build for production / Produktions-Build erstellen
+npm run build
 ```
 
 ---
 
 ## 🧪 Test / Tests / Tests
-- 🇹🇷 Testleri çalıştırmak için: `npm test -- --watch=false`
-- 🇺🇸 Run the existing tests with: `npm test -- --watch=false`
-- 🇩🇪 Tests ausführen: `npm test -- --watch=false`
+- 🇹🇷 Testleri çalıştırmak için: `npm test -- --watchAll=false`
+- 🇺🇸 Run the existing tests with: `npm test -- --watchAll=false`
+- 🇩🇪 Tests ausführen: `npm test -- --watchAll=false`
 
 ---
 
